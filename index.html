@@ -42,7 +42,8 @@
                     </ul>
                     <form class="d-flex" role="search">
 
-                        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Register</button>
+                        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            type="button">Register</button>
                     </form>
                 </div>
             </div>
@@ -202,7 +203,7 @@
 
         </div>
         <div class="d-flex justify-content-center m-3">
-            <button class="btn btn-primary fs-5">See more Courses</button>
+            <button class="btn btn-primary fs-5 fw-bold">See more Courses</button>
         </div>
     </main>
 
@@ -254,57 +255,110 @@
             </p>
         </div>
         <div class="col-md-6 col-sm-12 col-12 p-5 d-flex flex-row-reverse">
-            <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" class="btn btn-light text-primary fs-4 fw-semibold me-5">Register Now</button>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
+                class="btn btn-light text-primary fs-4 fw-semibold me-5">Register Now</button>
         </div>
     </section>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Create a new account</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create a new account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">First Name:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Last Name:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <label class="form-check-label" for="exampleCheck1">I agree with the <a href="#">term and
+                                    condition of the website.</a></label>
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">First Name:</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Last Name:</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <label class="form-check-label" for="exampleCheck1">I agree with the <a href="#">term and condition of the website.</a></label>
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
     </div>
-  </div>
     <!-- meet our successful students -->
+    <section class="my-5">
+        <div class="section-header mt-5">
+            <h1>Meet Our Successfull
+                Students</h1>
+            <p>It is a long established fact that a reader will be distracted by the
+                readable content of a page when looking at its layout</p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="d-flex justify-content-center m-3">
+            <button class="btn btn-primary fs-5 fw-bold">View All</button>
+        </div>
+    </section>
     <!-- some student feedback card -->
 
     <!-- frequently asked questions and accordion -->
