@@ -5,3 +5,29 @@
 .fa-brands {
     color: white;
 }
+
+.company_name{
+    transition: transform 400ms;
+}
+
+.company_name:hover {
+    transform: scale(1.2);
+}
+
+.footer_icons{
+    transition: transform 400ms;
+}
+
+
+.footer_icons:hover{
+    transform: scale(1.5);
+}
+
+.nav-link{
+    transition: transform 400ms, font-weight 400ms;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+}
